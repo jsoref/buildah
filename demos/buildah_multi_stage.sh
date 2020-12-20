@@ -6,7 +6,7 @@
 # Set some of the variables below
 
 demoimg=mymultidemo
-quayuser=myquauuser
+quayuser=myquayuser
 myname=MyName
 distrorelease=30
 pkgmgr=dnf   # switch to yum if using yum 
