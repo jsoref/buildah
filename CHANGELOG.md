@@ -1578,7 +1578,7 @@
     Added Docker compatibility demo
     Update to F28 and new run format in baseline test
     Touchup man page short options across man pages
-    Added demo dir and a demo. chged distrorlease
+    Added demo dir and a demo. changed distrorlease
     builder-inspect: fix format option
     Add cpu-shares short flag (-c) and cpu-shares CI tests
     Minor fixes to formatting in rpm spec changelog
