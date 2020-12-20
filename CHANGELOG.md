@@ -1244,7 +1244,7 @@
 ## v1.4 (2018-10-02)
     from: fix isolation option
     Touchup pull manpage
-    Export buildah ReserveSELinuxLables so podman can use it
+    Export buildah ReserveSELinuxLabels so podman can use it
     Add buildah.io to README.md and doc fixes
     Update rmi man for prune changes
     Ignore file not found removal error in bud
