@@ -1558,7 +1558,7 @@
     Handle /etc/hosts and /etc/resolv.conf properly in container
     Documentation fixes
     Make it easier to parse our temporary directory as an image name
-    Makefile: list new pkg/ subdirectoris as dependencies for buildah
+    Makefile: list new pkg/ subdirectories as dependencies for buildah
     containerImageSource: return more-correct errors
     API cleanup: PullPolicy and TerminalPolicy should be types
     Make "run --terminal" and "run -t" aliases for "run --tty"
