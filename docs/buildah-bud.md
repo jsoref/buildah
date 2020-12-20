@@ -749,7 +749,7 @@ are stored while pulling and pushing images.  Defaults to '/var/tmp'.
 ### `.dockerignore`
 
 If the file .dockerignore exists in the context directory, `buildah copy` reads
-its contents. Use `--ignorefile` flag to overide .dockerignore path location.
+its contents. Use `--ignorefile` flag to override .dockerignore path location.
 Buildah uses the content to exclude files and directories from the context
 directory, when executing COPY and ADD directives in the
 Containerfile/Dockerfile
