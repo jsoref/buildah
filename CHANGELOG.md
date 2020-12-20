@@ -1073,12 +1073,12 @@
     Add support for ADD --chown
     imagebuildah: make EnsureContainerPath() check/create the right one
     Bump 1.7-dev
-    Fix contrib/rpm/bulidah.spec changelog date
+    Fix contrib/rpm/buildah.spec changelog date
 
 ## v1.6-1 (2019-01-18)
     Add support for ADD --chown
     imagebuildah: make EnsureContainerPath() check/create the right one
-    Fix contrib/rpm/bulidah.spec changelog date
+    Fix contrib/rpm/buildah.spec changelog date
     Vendor in latest containers/storage
     Revendor everything
     Revendor in latest code by release

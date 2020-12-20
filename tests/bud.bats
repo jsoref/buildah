@@ -948,7 +948,7 @@ function _test_http() {
   run_buildah from ${target}
 }
 
-# Following flags are configured to result in noop but should not affect buildiah bud behavior
+# Following flags are configured to result in noop but should not affect buildah bud behavior
 @test "bud with --cache-from noop flag" {
   target=noop-image
   run_buildah bud --cache-from=invalidimage --signature-policy ${TESTSDIR}/policy.json -t ${target} -f Dockerfile.noop-flags ${TESTSDIR}/bud/run-scenarios
@@ -1560,7 +1560,7 @@ function _test_http() {
   expect_output --substring "\-rw\-rw\-r\-\-"
 }
 
-@test "buidah bud --volume" {
+@test "buildah bud --volume" {
   voldir=${TESTDIR}/bud-volume
   mkdir -p ${voldir}
 
