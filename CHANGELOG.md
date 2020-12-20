@@ -1399,7 +1399,7 @@
     Update vendor for runc to fix 32 bit builds
 
 ## 1.2 (2018-07-14)
-    Vendor in lates containers/image
+    Vendor in latest containers/image
     build-using-dockerfile: let -t include transports again
     Block use of /proc/acpi and /proc/keys from inside containers
     Fix handling of --registries-conf
