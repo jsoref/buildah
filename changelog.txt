@@ -405,7 +405,7 @@
   * Cirrus: Disable F29 testing
   * Cirrus: Add jq package
   * Cirrus: Fix lint + validation using wrong epoch
-  * Stop using fedorproject registry
+  * Stop using fedoraproject registry
   * Bors: Workaround ineffective required statuses
   * Bors: Enable app + Disable Travis
   * Cirrus: Add standardized log-collection
