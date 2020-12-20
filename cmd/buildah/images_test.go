@@ -328,7 +328,7 @@ func TestParseFilterInvalidFilter(t *testing.T) {
 	}
 }
 
-func TestMatchesDangingTrue(t *testing.T) {
+func TestMatchesDanglingTrue(t *testing.T) {
 	if !matchesDangling("<none>", "true") {
 		t.Error("matchesDangling() should return true with dangling=true and name=<none>")
 	}
@@ -338,7 +338,7 @@ func TestMatchesDangingTrue(t *testing.T) {
 	}
 }
 
-func TestMatchesDangingFalse(t *testing.T) {
+func TestMatchesDanglingFalse(t *testing.T) {
 	if matchesDangling("hello", "true") {
 		t.Error("matchesDangling() should return false with dangling=true and name=hello")
 	}
