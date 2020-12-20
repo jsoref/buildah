@@ -76,7 +76,7 @@ load helpers
   expect_output "Non-docker transport is not supported, for --all-tags pulling"
 }
 
-@test "pull-from-docker-deamon" {
+@test "pull-from-docker-daemon" {
   run systemctl status docker
   if [[ ! "$output" =~ "active (running)" ]]
   then
