@@ -1195,7 +1195,7 @@
     Walk symlinks when checking cached images for copied/added files
     ReserveSELinuxLabels(): handle wrapped errors from OpenBuilder
     Set WorkingDir to empty, not / for conformance
-    Update calls in e2e to addres 1101
+    Update calls in e2e to address 1101
     imagebuilder.BuildDockerfiles: return the image ID
     Update for changes in the containers/image API
     bump(github.com/containers/image)
