@@ -251,7 +251,7 @@
     remove dependency on openshift struct
     Warn on unset build arguments
     vendor: update seccomp/containers-golang to v0.4.1
-    Ammended docs
+    Amended docs
     Updated docs
     clean up comments
     update exit code for tests
