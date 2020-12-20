@@ -304,7 +304,7 @@
   * make vendor: run `tidy` after `vendor`
   * Do not skip the directory when the ignore pattern matches
   * Bump github.com/containers/common from 0.7.0 to 0.8.1
-  * Downgrade siruspen/logrus from 1.4.2
+  * Downgrade sirupsen/logrus from 1.4.2
   * Fix errorf conventions
   * dockerignore tests : remove symlinks, rework
   * Bump back to v1.15.0-dev
