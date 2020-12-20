@@ -1152,7 +1152,7 @@
   * Sort CLI flags
   * vendor: update containers/storage
   * Add note to install about non-root on RHEL/CentOS
-  * Update imagebuild depdency to support heading ARGs in Dockerfile
+  * Update imagebuild dependency to support heading ARGs in Dockerfile
   * rootless: do not specify --rootless to the OCI runtime
   * Export resolvesymlink function
   * Exclude --force-rm from common bud cli flags
