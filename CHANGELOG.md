@@ -1306,7 +1306,7 @@
     Remove docker build image after each test
     Add README for conformance test
     Update the MakeOptions to accept all command options for buildah
-    Update regrex to fit the docker output in test "run with JSON"
+    Update regex to fit the docker output in test "run with JSON"
     cmd/buildah: Remove redundant variable declarations
     Warn about using Commands in Dockerfile that are not supported by OCI.
     Add buildah bud conformance test
