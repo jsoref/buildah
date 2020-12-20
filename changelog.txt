@@ -1,5 +1,5 @@
 - Changelog for v1.18.0 (2020-11-16)
-  * Fix testing error caused by simultanious merge
+  * Fix testing error caused by simultaneous merge
   * Vendor in containers/storage v1.24.0
   * short-names aliasing
   * Add --policy flag to buildah pull
