@@ -949,7 +949,7 @@
     bump github.com/containernetworking/cni to v0.7.0-rc2
     imagebuildah: use "useCache" instead of "noCache"
     imagebuildah.resolveNameToImageRef(): take name as a parameter
-    Export fields of the DokcerIgnore struct
+    Export fields of the DockerIgnore struct
     imagebuildah: drop the duplicate containerIDs list
     rootless: by default use the host network namespace
     imagebuildah: split Executor and per-stage execution
