@@ -621,7 +621,7 @@
 
 ## v1.11.1 (2019-09-11)
     Add --devices flag to bud and from
-    Downgrade .papr to highest atomic verion
+    Downgrade .papr to highest atomic version
     Add support for /run/.containerenv
     Truncate output of too long image names
     Preserve file and directory mount permissions
