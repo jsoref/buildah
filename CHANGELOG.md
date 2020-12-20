@@ -1258,7 +1258,7 @@
     unshare: keep the additional groups of the user
     Builtin volumes should be owned by the UID/GID of the container
     Get rid of dangling whitespace in markdown files
-    Move buildah from projecatatomic/buildah to containers/buildah
+    Move buildah from projectatomic/buildah to containers/buildah
     nitpick: parse.validateFlags loop in bud cli
     bash: Completion options
     Add signature policy to push tests
