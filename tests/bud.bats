@@ -2007,9 +2007,9 @@ _EOF
   expect_output --substring "COMMIT pull"
 }
 
-@test "bud with Containerfile should fail with nonexist authfile" {
+@test "bud with Containerfile should fail with nonexistent authfile" {
   target=alpine-image
-  run_buildah 125 bud --authfile /tmp/nonexist --signature-policy ${TESTSDIR}/policy.json -t ${target} ${TESTSDIR}/bud/containerfile
+  run_buildah 125 bud --authfile /tmp/nonexistent --signature-policy ${TESTSDIR}/policy.json -t ${target} ${TESTSDIR}/bud/containerfile
 }
 
 @test "bud COPY with URL should fail" {

@@ -164,8 +164,8 @@ load helpers
   expect_output --substring 'pull from registry at "docker.io" denied by policy: not in allowed registries list'
 }
 
-@test "pull should fail with nonexist authfile" {
-  run_buildah 125 pull --authfile /tmp/nonexist --signature-policy ${TESTSDIR}/policy.json alpine
+@test "pull should fail with nonexistent authfile" {
+  run_buildah 125 pull --authfile /tmp/nonexistent --signature-policy ${TESTSDIR}/policy.json alpine
 }
 
 @test "pull encrypted local image" {

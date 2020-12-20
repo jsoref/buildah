@@ -538,7 +538,7 @@
 - Changelog for v1.11.5 (2019-11-11)
   * Enhance error on unsafe symbolic link targets
   * Add OCIRuntime to info
-  * Check nonexsit authfile
+  * Check nonexistent authfile
   * Only output image id if running buildah bud --quiet
   * Fix --pull=true||false and add --pull-never to bud and from (retry)
   * cgroups v2: tweak or skip tests
