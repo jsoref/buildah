@@ -892,7 +892,7 @@
     commit: always set a parent ID
     imagebuildah: rework unused-argument detection
     fix bug dest path when COPY .dockerignore
-    Move Host IDMAppings code from util to unshare
+    Move Host IDMappings code from util to unshare
     Add BUILDAH_ISOLATION rootless back
     Travis CI: fail fast, upon error in any step
     imagebuildah: only commit images for intermediate stages if we have to
