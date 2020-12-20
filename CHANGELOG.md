@@ -806,7 +806,7 @@
     Create directory paths for COPY thereby ensuring correct perms
     imagebuildah: use a stable sort for comparing build args
     imagebuildah: tighten up cache checking
-    bud.bats: add a test verying the order of --build-args
+    bud.bats: add a test varying the order of --build-args
     add -t to podman run
     imagebuildah: simplify screening by top layers
     imagebuildah: handle ID mappings for COPY --from
