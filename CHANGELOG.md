@@ -170,7 +170,7 @@
     Bump github.com/opencontainers/runc from 1.0.0-rc91 to 1.0.0-rc92
     Enhance the .dockerignore man pages
     conformance: add a test for COPY from subdirectory
-    fix  bug manifest inspct
+    fix  bug manifest inspect
     Add documentation for .dockerignore
     Add BuilderIdentityAnnotation to identify buildah version
     DOC: Add quay.io/containers/buildah image to README.md
