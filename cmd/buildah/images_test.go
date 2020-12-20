@@ -411,7 +411,7 @@ func TestMatchesBeforeImageFalse(t *testing.T) {
 	}
 }
 
-func TestMatchesSinceeImageTrue(t *testing.T) {
+func TestMatchesSinceImageTrue(t *testing.T) {
 	// Make sure the tests are running as root
 	failTestIfNotRoot(t)
 
