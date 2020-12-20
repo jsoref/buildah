@@ -791,7 +791,7 @@
     run: fix hang with run and --isolation=chroot
     run: fix hang when using run
     chroot: drop unused function call
-    remove --> before imgageID on build
+    remove --> before imageID on build
     Always close stdin pipe
     Write deny to setgroups when doing single user mapping
     Avoid including linux/memfd.h
