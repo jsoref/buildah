@@ -970,7 +970,7 @@
   * Print commitID with --layers
   * fix bug images use the template to print results
   * rootless: honor --net host
-  * onsi/gomeage add missing files
+  * onsi/gomega add missing files
   * vendor latest openshift/imagebuilder
   * Remove noop from squash help
   * Prepend a comment to files setup in container
