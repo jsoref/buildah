@@ -1,0 +1,29 @@
+# YouTube
+https?://(?:(?:www\.|)youtube\.com|youtu.be)/(?:channel/|embed/|)[-a-zA-Z0-9?&=_]*
+# GitHub SHAs
+\bgithub\.com/[^/]+/[^/]+\@[0-9a-f]+\b
+# githubusercontent
+/[a-z-]+\.githubusercontent\.com/[-a-zA-Z0-9?&=_\/.]*
+# URL escaped characters
+\%[0-9A-F]{2}
+# sha256
+sha256:[0-9a-f]+
+\b[0-9a-f]{64}\b
+\b[0-9a-zA-Z]{52}\b
+# sha-1
+"[0-9a-f]{40}"
+\b[0-9a-f]{40}\b
+# ?
+\b[0-9a-f]{11,12}\b
+# hex digits including css/html color classes:
+(?:[\\0][xX]|\\u|[uU]\+|#|\%23)[0-9a-fA-FgGrR]{2,}[uU]?[lL]{0,2}\b
+# docker overlays
+/overlay/[0-9a-f]+
+# ignore long runs of a single character:
+\b([A-Za-z])\1{3,}\b
+# <word>vX
+v\d+(?:\b|(?=[A-Za-z]))
+#
+"-D
+#
+\bpackag 3\.0
